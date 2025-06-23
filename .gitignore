@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# AWS
+.aws/
+*.pem
+
+# Dados e modelos
+*.pkl
+*.h5
+*.model
+data/
+models/
+
+# Logs
+*.log
+logs/
+
+# Ambiente
+.env
+.env.local
+.env.production
+
+# Node modules (se usar JavaScript)
+node_modules/
+
+# Sistema
+.DS_Store
+Thumbs.db
